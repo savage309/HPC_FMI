@@ -2,7 +2,7 @@
 
 "Високо производително програмиране", ФМИ, СУ, зимен семестър, 2016.
 
-<img src="https://github.com/savage309/HPC2015/raw/master/lectures/00/images/hpc_fmi_logo.jpg"/>
+<img src="https://github.com/savage309/HPC_FMI/raw/master/lectures/00/images/hpc_fmi_logo.jpg"/>
 ___
 # Кога ?
 
