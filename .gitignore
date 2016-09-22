@@ -11,6 +11,8 @@ opencl_hello_world/build/opencl_hello_world.build/Debug/opencl_hello_world.build
 
 *.o
 
+*.DS_Store
+
 *.hmap
 
 *.pbxproj
@@ -59,3 +61,17 @@ internal/a.out
 cuda_hello_world/cuda_hello_world.xcodeproj/project.xcworkspace/xcshareddata/cuda_hello_world.xcscmblueprint
 
 opencl_hello_world/opencl_hello_world.xcodeproj/project.xcworkspace/xcshareddata/opencl_hello_world.xcscmblueprint
+
+test_pointer_alias/js/.DS_Store
+
+lectures/gpu_1/images/.DS_Store
+
+lectures/misc_images/.DS_Store
+
+lectures/mt_01/.DS_Store
+
+opencl_hello_world/.DS_Store
+
+opencl_hello_world/opencl_hello_world/.DS_Store
+
+simd/.DS_Store
