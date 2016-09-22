@@ -413,6 +413,12 @@ How is it implemented ?
 
 ---
 
+![](./images/P100Back.jpg)
+
+mezzanine connector
+
+---
+
 ## GPU Programming patterns
 
 * Reduction
