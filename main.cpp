@@ -27,46 +27,69 @@ using namespace std;
 int main(int argc, const char * argv[]) {
 
     std::cout << "Starting tests ...\n" << std::endl;
-    
     auto t0 = getTime();
+
     /* #0 Instruction level parallelism*/
     ILP::test();
     std::cout << "\n **** \n\n";
+    
+    ////////////////////////////////////////////////////////////////////
     
     /* #1 Cache misses */
     Image::test();
     std::cout << "\n **** \n\n";
     
+    ////////////////////////////////////////////////////////////////////
+    
     Virtual::test();
     std::cout << "\n **** \n\n";
     
+    ////////////////////////////////////////////////////////////////////
+    
     CacheMiss::test();
     std::cout << "\n **** \n\n";
-
+    
+    ////////////////////////////////////////////////////////////////////
+    
     /* #2 Pointer alliasing */
     PointerAlias::test();
     std::cout << "\n **** \n\n";
     
+    ////////////////////////////////////////////////////////////////////
+
     /* #3 Compiler related */
     Inline::test();
     std::cout << "\n **** \n\n";
     
+    ////////////////////////////////////////////////////////////////////
+
     Factoriel::test();
     std::cout << "\n **** \n\n";
+    
+    ////////////////////////////////////////////////////////////////////
     
     FloatDouble::test();
     std::cout << "\n **** \n\n";
     
+    ////////////////////////////////////////////////////////////////////
+    
     /* Data oriented design */
     DataOrientedDesign::test();
     std::cout << "\n **** \n\n";
+    
+    ////////////////////////////////////////////////////////////////////
 
     SoA::test();
     std::cout << "\n **** \n\n";
     
-    Threads::test();
-    std::cout << "\n **** \n\n";
+    ////////////////////////////////////////////////////////////////////
+    
+    //Threads::test();
+    //std::cout << "\n **** \n\n";
+    
     auto t1 = getTime();
+    
+    ////////////////////////////////////////////////////////////////////
     
     std::cout << "Tests completed, time " << diffclock(t1, t0) << "s" << std::endl;
     

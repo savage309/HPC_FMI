@@ -75,3 +75,11 @@ opencl_hello_world/.DS_Store
 opencl_hello_world/opencl_hello_world/.DS_Store
 
 simd/.DS_Store
+
+HPC_FMI/build/Debug/HPC_FMI
+
+HPC_FMI/build/HPC_FMI.build/Debug/HPC_FMI.build/dgph
+
+HPC_FMI/build/HPC_FMI.build/Debug/HPC_FMI.build/dgph~
+
+*.xcscmblueprint
