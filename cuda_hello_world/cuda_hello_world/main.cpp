@@ -98,10 +98,9 @@ void printLog(LogType priority, const char *format, ...) {
 }
 
 namespace CUDAErrorCheck {
-template<typename T>
-inline
+template<typename T> inline
 void __checkError(T error, const char* file, int line) {
-    if (error != 0) {
+    if (error != CUDA_SUCCESS) {
         printLog(LogTypeError, "error %i in file %s, line %i", error, file, line);
         exit(EXIT_FAILURE);
     }
@@ -193,7 +192,7 @@ void initCUDAAPI(std::vector<CUdevice>& devices, std::vector<CUcontext>& context
 
 void loadCUDAKernel(std::vector<CUdevice>& devices, std::vector<CUcontext>& contexts, std::vector<CUmodule>& programs) {
 #ifdef CUDA_USE_NVRTC
-    const char* pathToKernelSource = "/Developer/git/GPAPI/GPAPI/HPC2015/cuda_hello_world/cuda_hello_world/kernels.cu";
+    const char* pathToKernelSource = "../../cuda_hello_world/kernels.cu";
     printLog(LogTypeInfo, "Trying to load kernel from source located at %s\n", pathToKernelSource);
     std::string source = getProgramSource(pathToKernelSource);
     
@@ -223,7 +222,7 @@ void loadCUDAKernel(std::vector<CUdevice>& devices, std::vector<CUcontext>& cont
     std::unique_ptr<char[]> ptx(new char[ptxSize + 1]);
     nvRes = nvrtcGetPTX(program, ptx.get());
     
-    const char* TARGET_CUDA_SAVE_PTX_PATH = "/Users/savage309/Desktop/blago.ptx";
+    const char* TARGET_CUDA_SAVE_PTX_PATH = "../../blago.ptx";
     
     {
         std::fstream ptxStream(TARGET_CUDA_SAVE_PTX_PATH, std::ios_base::trunc | std::ios_base::out);
