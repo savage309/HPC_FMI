@@ -80,21 +80,7 @@ OpenCL compilation
 
 ## [DEMO OpenCL Hello World]
 
----
-
-First lecture 2016 begins here (5.I)
-
----
-
-* Final course <a href="https://docs.google.com/document/d/1gED6Dh7IEM6sx9Sy5DA2PgmjUETmKEM3ghjpwQObnM0/edit?usp=sharing">projects</a>
- * If you have ideas for a different project, contact us
-
-* Give us <a href="www.surveymonkey.com/r/W8W5FK8">feedback</a> (pass: lattner)
-
-* Homeworks were really bad this time :(
- * This is HPC course, not "Introduction to programming" ...
- * Find stuff that are making the difference
- * Pro tip: don't do the final projects like you did the last homework
+<!--- First lecture 2016 begins here (5.I) --->
 
 ---
 

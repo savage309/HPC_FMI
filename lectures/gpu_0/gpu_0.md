@@ -384,21 +384,12 @@ Difference between the CPU and the GPU thread models
 
 **Thousands** of threads are running at the same time
 
----
 
-22.XII.2015 lecture starts here
-
----
-
-notes: AMD Boltzmann initiative - CUDA running on AMD
-
-homeworks, projects, tests
-
-trading effectiveness for efficiency
+<!--- 22.XII.2015 lecture starts here --->
 
 ---
 
-recap ...
+AMD Boltzmann initiative - CUDA running on AMD
 
 ---
 
