@@ -27,7 +27,7 @@ using namespace std;
 int main(int argc, const char * argv[]) {
 
     std::cout << "Starting tests ...\n" << std::endl;
-    auto t0 = getTime();
+    const auto t0 = getTime();
 
     /* #0 Instruction level parallelism*/
     ILP::test();
@@ -87,7 +87,7 @@ int main(int argc, const char * argv[]) {
     //Threads::test();
     //std::cout << "\n **** \n\n";
     
-    auto t1 = getTime();
+    const auto t1 = getTime();
     
     ////////////////////////////////////////////////////////////////////
     

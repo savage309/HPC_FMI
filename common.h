@@ -29,8 +29,6 @@
 #include <cmath>
 #include <cstdlib>
 
-#define DISABLE_REDUNDANT_CODE_OPT() { asm(""); }
-
 #include "benchpress/benchpress.hpp"
 
 #define ADD_BENCHMARK(name, function) { BENCHMARK(name, [&](benchpress::context* ctx) { for (size_t i = 0; i < ctx->num_iterations(); ++i) { function(); } });}
@@ -43,7 +41,7 @@ inline auto randomInt(int min, int max) {
 }
 
 constexpr
-auto operator"" _million ( const unsigned long long v ) {
+auto operator"" _million (const unsigned long long v) {
     return v * 1'000'000;
 }
 
