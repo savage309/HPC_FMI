@@ -6,12 +6,12 @@
 ___
 # Кога ?
 
-TBD
+Четвъртък, 19:00.
 
 ___
 # Къде ?
 
-<a href="https://goo.gl/Ijf3UI">ФМИ</a>, зала TBD.
+<a href="https://goo.gl/Ijf3UI">ФМИ</a>, зала 326.
 ___
 # Друго
 
