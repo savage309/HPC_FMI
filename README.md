@@ -10,9 +10,12 @@ ___
 
 # What ?
 
-•	We teach how to write computer programs for performance critical problems, that are effective and efficient. Languages that are used most often in the course are C/C++, OpenCL and CUDA.
-•	As prerequisite, you need to have knowledge in C++. Some knowledge in Computer Architectures, Operating Systems, Advanced C++ and GPU programing is nice to have (but not mandatory).
-•	The talks are grouped in three main topics - optimizing single threaded programs (1), efficient concurrent and parallel programs (2) and programming GPUs (3).
+*	We teach how to write computer programs for performance critical problems, that are effective and efficient. Languages that are used most often in the course are C/C++, OpenCL and CUDA.
+
+*	As prerequisite, you need to have knowledge in C++. Some knowledge in Computer Architectures, Operating Systems, Advanced C++ and GPU programing is nice to have (but not mandatory).
+
+*	The talks are grouped in three main topics - optimizing single threaded programs (1), efficient concurrent and parallel programs (2) and programming GPUs (3).
+
 * "HPC programming" can be interpreted as two differnt things - programming for super-computer-like scenarios (1) or "making things go fast" (2). HPC FMI is all about the later.
 ___
 
