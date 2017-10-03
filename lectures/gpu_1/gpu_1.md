@@ -1,3 +1,4 @@
+
 #GPGPU Architectures
 
 >"I saw `cout` being shifted `Hello world` times to the left and stopped right there."
@@ -27,6 +28,7 @@
 * 5.X - Maxwell - 9XX, Quadro MXXXX
 * 6.0 - Pascal - GP100
 * 6.X (X!=0) - Pascal - Titan X Pascal, 1080, 1070, etc
+* 7.X - Volta, GV100
 
 ---
 
@@ -143,11 +145,14 @@
 
 ---
 
-## future
-
-* Volta
-* Stacked Memory (HBM2)
-* 2017/2018
+### GV100 Volta
+* Unified L1 & Shared (>7x L1 cache, >4x L1 cache bandwitdh)
+* PC for each thread (simplified thread model)
+* Kind of ILP, but not ILP (FP ALUs can work at the same as the Int ALUs)
+* Faster NVLINK, up to 6 devices
+* Faster HBM2
+* New instructions (Tensor core)
+* 12nm process (improved 14nm), >800m^2
 
 ---
 
